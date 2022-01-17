@@ -1,0 +1,118 @@
+/* Notes
+
+Colors:
+    light brown: #B19F8D
+    black: #383431
+    off white: #EEECE7
+
+*/
+
+[class*=grid] { 
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Temporary Styles
+
+* {
+    padding: 0.5rem;
+    border: 2px solid rgb(200,200,200);
+} 
+
+html, 
+body {
+    border: none;
+} 
+
+h1,h2,h3,h4,h5,h6,p, a {
+    border: 2px solid rgb(179, 84, 84);
+}  */
+
+
+
+/* Re-usable Utiity Classes  */
+
+.tall-50 { min-height: 50vh; }
+.tall-60 { min-height: 60vh; }
+.tall-70 { min-height: 70vh; }
+.tall-80 { min-height: 80vh; }
+.tall-90 { min-height: 90vh; }
+
+
+.padded    { padding: 5%;    }
+.padded-1  { padding: 1rem;  }
+.padded-2  { padding: 2rem;  }
+ 
+
+.margin-b-0 { margin-bottom: 0; }
+
+
+.bg-featured { background-color: #B19F8D; }
+.bg-dark     { background-color: #383431; }
+.bg-light    { background-color: #EEECE7; }
+
+.light-text { color: #EEECE7; } 
+
+
+.left   { text-align: left; }
+.center { text-align: center; }
+.right  { text-align: right; }
+
+
+/* General typography & universal styles  */
+
+.text-lg { font-size: 4.5rem;}
+.text-xl { font-size: 6rem;  }
+ 
+/* Header & Footer */
+
+/* Images & Background Images */
+
+.bg-image { 
+    background-color: #B19F8D;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-banner {
+    background-image: url('/images/banner.jpg');
+    
+
+}
+.bg-sand {
+    background-image: url('/images/sand-flatlay.jpg');
+
+}
+.bg-palm {
+    background-image: url('/images/palm.jpg');
+
+}
+.bg-climb {
+    background-image: url('/images/image-1.jpg');
+    
+
+}
+.bg-fruit {
+    background-image: url('/images/image-2.jpg');
+    
+
+}
+.bg-rock {
+    background-image: url('/images/image-3.jpg');
+    
+}
+
+/* Card Styles */
+
+.card {
+    padding: 0;
+}
