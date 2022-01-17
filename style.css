@@ -75,6 +75,17 @@ h1,h2,h3,h4,h5,h6,p, a {
  
 /* Header & Footer */
 
+header {
+    padding: 1% 5%;
+  }
+
+.banner {
+    background-image: url('/images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+}
+
 /* Images & Background Images */
 
 .bg-image { 
@@ -83,11 +94,6 @@ h1,h2,h3,h4,h5,h6,p, a {
     background-position: center;
 }
 
-.bg-banner {
-    background-image: url('/images/banner.jpg');
-    
-
-}
 .bg-sand {
     background-image: url('/images/sand-flatlay.jpg');
 
