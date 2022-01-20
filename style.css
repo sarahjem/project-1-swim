@@ -141,6 +141,7 @@ section a {
 
 .bg-sand {
     background-image: url('/images/sand-flatlay.jpg');
+    background-position: 50% 70%;
 
 }
 .bg-palm {
@@ -155,12 +156,15 @@ section a {
 }
 .bg-fruit {
     background-image: url('/images/image-2.jpg');
-    
-
 }
+
 .bg-rock {
     background-image: url('/images/image-3.jpg');
-    
+    background-position: 50% 50%;
+}
+
+.bg-suit {
+    background-image: url('/images/image-5.jpg');
 }
 
 .square {
