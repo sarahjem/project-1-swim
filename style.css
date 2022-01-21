@@ -59,8 +59,8 @@ img {
 .center { text-align: center; }
 .right  { text-align: right; }
 
-.text-lg { font-size: 3.5rem;}
-.text-xl { font-size: 6rem;  }
+.text-lg { font-size: 3.5rem; }
+.text-xl { font-size: 6rem;   }
 
 .logo {
     font-size: 1.6rem;
@@ -151,7 +151,7 @@ section a {
 }
 .bg-climb {
     background-image: url('/images/image-1.jpg');
-    
+    background-position: 50% 40%;
 
 }
 .bg-fruit {
@@ -225,9 +225,9 @@ textarea {
     .show-sm { display: block; }
     .hide-sm { display:none;   }
 
+    .sm-tall-60 { min-height: 60vh; }
     .sm-tall-70 { min-height: 70vh; }
     
-
     .sm-text-center { text-align: center; }
     .sm-text-left   { text-align: left;   }
     .sm-text-right  { text-align: right;  }
@@ -246,6 +246,8 @@ textarea {
     .sm-margin-b-0 { margin-bottom: 0; }
     .sm-margin-l-0 { margin-left: 0;   }
     .sm-margin-r-0 { margin-right: 0;  }
+
+    .text-lg { font-size: 2rem; }
 
 
 /* XS Media Query (36em / 576px) */
